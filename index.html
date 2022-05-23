@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <h2> Coding Challenge </h2>
+    <h4>Question</h4>
+    <p>Write a Python/JavaScript code to sort the list/array below without using .sort() method.
+        <br><br>
+        Elements of list = [999, 333, 2, 8982, 12, 45, 77, 99, 11]
+        <br><br>
+        Expected output:
+        [2, 11, 12, 45, 77, 99, 333, 999, 8982]</p>
+    <H4>Answer Code</H4>
+    <p>
+        console.log("******************");<br><br>
+        list = [999, 333, 2, 8982, 12, 45, 77, 99, 11]<br><br>
+        console.log("Mevcut liste:"+list);
+        <br><br>
+        console.log("******************");
+        <br><br>
+        list.sort(function(a,b){return a-b});
+        <br><br>
+        console.log("Sıralı liste :"+list);</p>   
+</body>
+</html>
